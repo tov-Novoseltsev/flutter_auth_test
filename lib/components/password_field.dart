@@ -85,6 +85,11 @@ class _PasswordFieldState extends State<PasswordField> {
             color: color,
           ),
           maxLength: 64,
+          buildCounter: (context,
+                  {required currentLength,
+                  required isFocused,
+                  required maxLength}) =>
+              null,
           decoration: InputDecoration(
             contentPadding: const EdgeInsets.only(
               top: 10,
