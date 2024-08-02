@@ -84,6 +84,7 @@ class _PasswordFieldState extends State<PasswordField> {
             fontSize: 16,
             color: color,
           ),
+          maxLength: 64,
           decoration: InputDecoration(
             contentPadding: const EdgeInsets.only(
               top: 10,
